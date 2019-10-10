@@ -10,7 +10,7 @@ import {BrowserRouter, Route} from 'react-router-dom';
 
 const App = ()  => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/london">
       <Container>
       <Navigation/>
         <Route exact path='/' component={Home}/>
