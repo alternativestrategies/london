@@ -1,4 +1,4 @@
-#Travel Site
+# Travel Site
 
 For the Tech Academy Gateway we made a travel site using static HTML & CSS. I converted the site into React.
 
