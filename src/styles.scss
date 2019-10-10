@@ -1,0 +1,121 @@
+@import 'Sass/galleries';
+@import 'Sass/form';
+
+body{
+  @media(min-height: 200px){
+    margin-top: 20px;
+  }
+  @media(min-height: 900px){
+    margin-top: 50px;
+  }
+}
+
+header {
+  @media(min-height: 900px){
+    height: 80vh;
+  }
+}
+
+@media (max-width: 1000px) {
+    .container {
+       width: 100%;
+    }
+ }
+.logo {
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 70px;
+    width: 50%;
+    font-weight: 500;
+    background: linear-gradient(DarkViolet, #ED1E79);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    @media (max-width: 1200px) {
+        font-size: 6em;
+      }
+      @media (max-width: 1199px) {
+        font-size: 4.5em;
+        
+      }
+      @media (max-width: 756px) {
+        font-size: 3.6em;
+        
+      }
+      @media (max-width: 550px) {
+        font-size: 40px;
+      }
+      @media (max-width: 499px) {
+        font-size: 35px;
+      }
+  }
+
+  //nav stylin
+  .navbar-nav{
+      font-size: 20px;
+      margin-right: 10px;
+     & a {
+        color: darkviolet;
+        margin-right: 15px;
+        &:hover {
+            color: #ED1E79;
+            text-decoration: none;
+         }
+     }  
+  }
+
+  .nav-item{
+    @media(min-width: 800px){
+        margin-top: -30px;
+    }
+  }
+
+  .navbar-light {
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(148,0,211)' stroke-width='2.5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        border: 1px solid white;
+        font-size: 25px;
+    }
+    .navbar-toggler {
+        border: 1px solid white;
+        font-size: 1.4rem;
+        &:focus{
+            outline: 1px solid white;
+        }
+    }
+}
+
+//slider
+#londonEye img {
+    position: relative;
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.socialMedia a {
+    font-size: 30px;
+        color: #ED1E79;
+        margin-right: 15px;
+        &:hover {
+            color: #ED1E79;
+            text-decoration: none;
+         }
+     }  
+  
+  
+#footer {
+    position: relative;
+    width: 100%;
+  padding: 1rem;  
+  background: linear-gradient(to right,DarkViolet, #ED1E79);
+  padding: 3px; 
+  
+
+}
+.footer-module {
+    background-color: white;
+    padding: 2rem;
+}
+  

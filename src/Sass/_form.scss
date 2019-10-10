@@ -1,0 +1,18 @@
+form{
+    padding-bottom: 20px;
+}
+
+.form-headline {
+    background: linear-gradient(DarkViolet, #ED1E79);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-primary{
+    background-image: linear-gradient(to right, DarkViolet, #ED1E79);
+    color: white;
+    border: 0;
+    padding: 0.75rem 1.75rem;
+    margin: 0 auto;
+}
